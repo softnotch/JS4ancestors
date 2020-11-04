@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="refresh" content="50">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>IUF | JS</title>
+  </head>
+
+  <body class="text-center">
+
+
+
+        <section class="bg-danger text-light ">
+            
+            <div class="container">
+                <h2 class="pt-5">JavaScript can change HTML attribute values.</h2>
+
+                <p id="demo">The content of this text will be changed by JS</p>
+
+                <button onclick="document.getElementById('demo').innerHTML='Welcome to JavaScript Class'" class="btn btn-light">click to change the above text</button>
+
+            </div>
+        </section>
+
+        <section class="bg-secondary text-light ">
+          
+            <div class="container">
+                <h2 class="pt-5">JavaScript can change HTML attribute values.</p>
+
+                <p class="h3">In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+                <button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'" class="btn btn-primary">Turn on the light</button>
+
+                <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+                <button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'" class="btn btn-primary">Turn off the light</button>
+            </div>
+        </section>
+
+       
+
+        <section class="bg-warning text-light " style="height: 300px;">
+                
+            <div class="container">
+               
+                <p id="demo1"  class="pt-5">JavaScript can change the style of an HTML element.</p>
+
+                <button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'"class="btn btn-success">Click Me to increase the font-size of the above element to 35px!</button>
+            </div>
+        </section>
+
+        <section class="bg-primary text-light " style="height: 300px;">
+                
+            <div class="container">
+                <p class="h2">JavaScript can hide HTML elements.</p>
+
+                <p id="demo2">The element with this write-up is hidden .</p>
+
+                <button type="button" onclick="document.getElementById('demo2').style.display='none'" class="btn btn-secondary">Click to hide element!</button>
+              
+            </div>
+        </section>
+
+
+
+        <section class="bg-secondary text-light " style="height: 300px;">
+                
+            <div class="container">
+                <p class="h2">JavaScript can show hidden HTML elements.</p>
+
+                <!-- The element below is styled to display none but on clicking the button becomes visible -->
+                <p id="demo3" style="display:none">Hello JavaScript!</p>
+
+                <button type="button" onclick="document.getElementById('demo3').style.display='block'" class="btn btn-warning">Click Me to show a hidden element!</button>
+            
+            </div>
+        </section>
+
+        
+        <section class="  " id="demo4" style="height: 300px;">
+                
+            <div class="container">
+                <p class="h2">JavaScript can change the background colour </p>
+                
+               
+
+                <button type="button" onclick="document.getElementById('demo4').style.backgroundColor='red'" class="btn btn-outline-secondary">Click Me to change the background-color to red!</button>
+            
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
